@@ -49,9 +49,9 @@ module.exports = {
   rules: {
     "react/jsx-no-bind": "off",
     "react/no-array-index-key": "off",
-    "react/jsx-pascal-case": "off",
     "react/jsx-sort-props": "off",
-    "react-hooks/rules-of-hooks": "off"
+    "react-hooks/rules-of-hooks": "off",
+    "react/react-in-jsx-scope": "off"
   },
   overrides: [
     {
