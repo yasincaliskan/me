@@ -20,13 +20,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject",
+    "prettify": "./node_modules/.bin/prettier --config ./.prettierrc --write \"src/**/*.{jsx,js,tsx,ts,scss}\"",
+    "stylelint": "stylelint 'src/**/*.scss'",
+    "stylelint:fix": "npm run stylelint -- --fix",
+    "eslint": "./node_modules/.bin/eslint --ext .jsx,.js,.tsx,.ts src/",
+    "eslint:fix": "./node_modules/.bin/eslint --fix --ext .jsx,.js,.tsx,.ts src/",
+    "type-check": "echo \"type-checking...\" && tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch"
   },
   "browserslist": {
     "production": [
@@ -38,6 +39,41 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@hipo/eslint-config-base": "^4.1.1",
+    "@hipo/eslint-config-react": "^2.1.0",
+    "@hipo/eslint-config-typescript": "^1.0.1",
+    "@hipo/stylelint-config-base": "^2.2.0",
+    "@types/react-router-dom": "^5.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.0",
+    "node-sass": "^6.0.1",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-no-unsupported-browser-features": "^5.0.2",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "react",
+      "react-hooks",
+      "@typescript-eslint",
+      "jsx-a11y"
+    ],
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "@hipo/eslint-config-base",
+      "@hipo/eslint-config-react",
+      "@hipo/eslint-config-typescript",
+      "plugin:jsx-a11y/recommended",
+      "prettier"
     ]
   }
 }
