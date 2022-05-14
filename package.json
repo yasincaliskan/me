@@ -1,6 +1,6 @@
 {
-  "homepage": "https://yasincaliskan.github.io/personal-website",
-  "name": "personal-website",
+  "homepage": "https://yasincaliskan.github.io/me",
+  "name": "me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
