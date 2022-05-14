@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.fde5c0bd.css",
-    "main.js": "/personal-website/static/js/main.f41a6087.js",
-    "static/js/787.1d583568.chunk.js": "/personal-website/static/js/787.1d583568.chunk.js",
-    "static/media/pikachu.png": "/personal-website/static/media/pikachu.6c94309028c267dd8403.png",
-    "index.html": "/personal-website/index.html",
-    "main.fde5c0bd.css.map": "/personal-website/static/css/main.fde5c0bd.css.map",
-    "main.f41a6087.js.map": "/personal-website/static/js/main.f41a6087.js.map",
-    "787.1d583568.chunk.js.map": "/personal-website/static/js/787.1d583568.chunk.js.map"
+    "main.css": "/me/static/css/main.fde5c0bd.css",
+    "main.js": "/me/static/js/main.6d039bf3.js",
+    "static/js/787.36d57715.chunk.js": "/me/static/js/787.36d57715.chunk.js",
+    "static/media/pikachu.png": "/me/static/media/pikachu.6c94309028c267dd8403.png",
+    "index.html": "/me/index.html",
+    "main.fde5c0bd.css.map": "/me/static/css/main.fde5c0bd.css.map",
+    "main.6d039bf3.js.map": "/me/static/js/main.6d039bf3.js.map",
+    "787.36d57715.chunk.js.map": "/me/static/js/787.36d57715.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fde5c0bd.css",
-    "static/js/main.f41a6087.js"
+    "static/js/main.6d039bf3.js"
   ]
 }
