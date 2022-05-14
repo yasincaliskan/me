@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/yasincaliskan.github.io/static/css/main.c2ce73f9.css",
-    "main.js": "/yasincaliskan.github.io/static/js/main.5c2272bd.js",
-    "static/js/787.90e5660a.chunk.js": "/yasincaliskan.github.io/static/js/787.90e5660a.chunk.js",
-    "static/media/pikachu.png": "/yasincaliskan.github.io/static/media/pikachu.6c94309028c267dd8403.png",
-    "index.html": "/yasincaliskan.github.io/index.html",
-    "main.c2ce73f9.css.map": "/yasincaliskan.github.io/static/css/main.c2ce73f9.css.map",
-    "main.5c2272bd.js.map": "/yasincaliskan.github.io/static/js/main.5c2272bd.js.map",
-    "787.90e5660a.chunk.js.map": "/yasincaliskan.github.io/static/js/787.90e5660a.chunk.js.map"
+    "main.css": "/static/css/main.c2ce73f9.css",
+    "main.js": "/static/js/main.156414b0.js",
+    "static/js/787.1d583568.chunk.js": "/static/js/787.1d583568.chunk.js",
+    "static/media/pikachu.png": "/static/media/pikachu.6c94309028c267dd8403.png",
+    "index.html": "/index.html",
+    "main.c2ce73f9.css.map": "/static/css/main.c2ce73f9.css.map",
+    "main.156414b0.js.map": "/static/js/main.156414b0.js.map",
+    "787.1d583568.chunk.js.map": "/static/js/787.1d583568.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2ce73f9.css",
-    "static/js/main.5c2272bd.js"
+    "static/js/main.156414b0.js"
   ]
 }
