@@ -1,3 +1,5 @@
+@import "../core/ui/style/_media-queries.scss";
+
 .welcome-page {
   display: flex;
 
@@ -13,4 +15,16 @@
   width: 200px;
 
   margin-left: auto;
+}
+
+@include for-small-screens() {
+  .welcome-page {
+    flex-direction: column;
+
+    margin-top: 40px;
+  }
+
+  .pikachu-image {
+    margin-top: 40px;
+  }
 }

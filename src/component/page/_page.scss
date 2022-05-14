@@ -1,7 +1,16 @@
+@import "../../core/ui/style/_media-queries.scss";
+
 .page {
   max-width: 920px;
 
   margin: auto;
   padding-left: calc(env(safe-area-inset-left) + 96px);
   padding-right: calc(env(safe-area-inset-right) + 96px);
+}
+
+@include for-small-screens() {
+  .page {
+    padding-left: calc(env(safe-area-inset-left) + 16px);
+    padding-right: calc(env(safe-area-inset-right) + 16px);
+  }
 }
