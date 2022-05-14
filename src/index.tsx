@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 import "./index.scss";
 import "./core/ui/typography/_typography.scss";
+import "./core/ui/style/_align.scss";
 
 import App from "./core/app/App";
 import reportWebVitals from "./core/reportWebVitals";
